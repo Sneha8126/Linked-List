@@ -143,6 +143,7 @@ int main(){
     list.traverse();
       list.head = list.ZigZagList(list.head);
     cout<<"After applying zigzag operation: "<<endl;
+    // The solution is:
     list.traverseMerge(list.head);
     return 0;
 
