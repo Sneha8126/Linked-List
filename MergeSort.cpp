@@ -140,6 +140,7 @@ int main(){
     list.traverse();
     list.head = list.mergeSort(list.head);
     cout<<"After sorting: "<<endl;
+    //After sorting the result is:
     list.traverseMerge(list.head);
     return 0;
 
