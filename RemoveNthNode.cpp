@@ -99,6 +99,7 @@ int main(){
     list.push_front(5);
     list.traverse();
     list.removeNthNodeFromEnd(2);
+    //The result is:
     list.traverse();
     return 0;
 
