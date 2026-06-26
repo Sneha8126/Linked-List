@@ -115,6 +115,8 @@ int main(){
     list.push_back(20);
     list.push_front(5);
     list.traverse();
+
+    //Remove Cycle:
     list.removeCycle(list.head);
     list.traverse();
 
