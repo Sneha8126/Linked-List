@@ -109,8 +109,10 @@ int main(){
     list.push_back(20);
     list.push_front(5);
     list.traverse();
+    // Approach 1
     list.reverse();
     list.traverse();
+    //Approach 2
     list.reverse1();
     list.traverse();
     return 0;
