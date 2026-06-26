@@ -46,54 +46,6 @@ public:
         cout << endl;
     }
 
-    /*int length(Node* head){
-        int l = 0;
-
-        while(head != NULL){
-            l++;
-            head = head->next;
-        }
-
-        return l;
-    }
-
-    Node* intersection(Node* head1, Node* head2){
-
-        int l1 = length(head1);
-        int l2 = length(head2);
-
-        Node* ptr1 = head1;
-        Node* ptr2 = head2;
-
-        int d=0;
-
-        if(l1 > l2){
-            d = l1 - l2;
-
-            for(int i = 0; i < d; i++){
-                ptr1 = ptr1->next;
-            }
-        }
-        else{
-            d = l2 - l1;
-
-            for(int i = 0; i < d; i++){
-                ptr2 = ptr2->next;
-            }
-        }
-
-        while(ptr1 != NULL && ptr2 != NULL){
-
-            if(ptr1 == ptr2){
-                return ptr1;
-            }
-
-            ptr1 = ptr1->next;
-            ptr2 = ptr2->next;
-        }
-
-        return NULL;
-    }*/
 
     int size(Node* head){
     int sz=0;
