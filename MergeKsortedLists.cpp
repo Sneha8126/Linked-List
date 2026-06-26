@@ -118,17 +118,20 @@ return result;
 };
 
 int main(){
-
+    //List 1
     LinkedList list1;
     list1.push_back(1);
     list1.push_back(4);
     list1.push_back(7);
 
+
+    //List 2
     LinkedList list2;
     list2.push_back(2);
     list2.push_back(5);
     list2.push_back(8);
 
+    //List 3
     LinkedList list3;
     list3.push_back(3);
     list3.push_back(6);
@@ -142,6 +145,7 @@ int main(){
     lists[1] = list2.head;
     lists[2] = list3.head;
 
+    // Result 
     Node* result = resultList.mergeKsortedList(lists, 3);
 
     cout << "Merged K Sorted Lists: ";
