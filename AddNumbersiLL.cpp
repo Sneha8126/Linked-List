@@ -105,13 +105,13 @@ int main(){
     LinkedList list1;
   
     list1.push_back(3);
-    list1.push_back(5);
+    list1.push_back(4);
 
     LinkedList list2;
-    list2.push_back(4);
     list2.push_back(5);
-    list2.push_back(9);
-     list2.push_back(9);
+    list2.push_back(6);
+    list2.push_back(7);
+     list2.push_back(8);
 
     LinkedList resultList;
 
