@@ -83,6 +83,8 @@ public:
         cout << endl;
     }
 
+    // The approach is :
+
     Node* swapNodesPairs(Node* head){
 
         if(head == NULL || head->next == NULL){
