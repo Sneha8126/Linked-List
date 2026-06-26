@@ -126,8 +126,6 @@ int main(){
     list.push_back(6);
     list.push_back(20);
     list.push_front(5);
-    //list.pop_front();
-    //list.pop_back();
     list.traverse();
     list.head=list.reverseDoublyLL2(list.head);
     cout<<"After reversing doubly linked list : "<<endl;
