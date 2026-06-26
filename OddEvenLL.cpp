@@ -138,6 +138,8 @@ int main(){
     list.traverse();
     list.head = list.EvenOddLinkedList(list.head);
     cout<<"After odd even segregate : "<<endl;
+
+    //Result is:
     list.traverseNode(list.head);
     return 0;
 
