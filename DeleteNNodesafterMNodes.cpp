@@ -43,7 +43,7 @@ public:
             cout << ptr->data << " ";
             ptr = ptr->next;
         }
-        cout << endl;
+        cout<<endl;
     }
 
     void deleteNafterM(int M, int N) {
