@@ -145,6 +145,8 @@ int main(){
     list.push_back(6);
     list.traverse();
     list.head = list.swappingNodes(list.head,2,5);
+
+    // The solution is:
     cout<<"After swapping nodes : "<<endl;
     list.traverseNode(list.head);
     return 0;
