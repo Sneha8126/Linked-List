@@ -96,7 +96,8 @@ int main(){
     cout<<"Checking for cycle: "<<endl;
     list.isCycle(list.head);
     // Creating a cycle for testing purpose
-    list.head->next->next->next->next = list.head; // Creating a cycle    
+
+    list.head->next->next->next->next = list.head;    
     cout<<"Checking for cycle after creating a cycle: "<<endl;
     list.isCycle(list.head);                                                                              
     return 0;
