@@ -79,7 +79,8 @@ class LinkedList{
             ptr=ptr->next;
             idx++;
         }
-        return -1; // Key not found
+        // Key not found
+        return -1; 
     }
 
     int RecursiveSearch(Node* head,int key){
