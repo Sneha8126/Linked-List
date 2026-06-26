@@ -119,6 +119,8 @@ int main(){
     list.push_back(8);
     list.push_back(10);
     list.traverse();
+
+    // Palindrome result is:
     cout<<"Is Palindrome: "<<list.isPalindrome(list.head)<<endl;
     return 0;
 
